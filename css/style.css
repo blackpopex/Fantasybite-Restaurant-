@@ -3720,6 +3720,83 @@ td {
         font-weight: bold;
     }
 }
+/**New**/
+@media screen and (max-width: 414px) {
+    #abt-main {
+        width: 100%;
+        margin: 5% auto 0 auto;
+        overflow: hidden;
+    }
+    .About-logo {
+        padding: 5px 10px 0;
+        width: 100%;
+        margin: 60px 0 0;
+    }
+    .About-logo h2 {
+        font-size: 2em;
+        text-align: center;
+        padding: 0 40px;
+        margin-bottom: 0;
+    }
+    .about-body {
+        width: 100%;
+    }
+    .about-body h4 {
+        font-size: 1.2em;
+        color: #50BF96;
+        margin-bottom: 15px;
+        font-family: 'Fredoka One', cursive;
+    }
+    .about-body p {
+        color: #686868;
+        font-size: 1em;
+    }
+    .container-branches ul {
+        list-style-type: none;
+        margin: 10px 0;
+        padding: 5px 0;
+    }
+    .container-branches ul li {
+        display: block;
+        font-size: 1em;
+        color: #686868;
+    }
+    .container-branches li:before {
+        content: "\2022";
+        color: #50BF96;
+        display: inline-block;
+        font-weight: bolder;
+        margin-left: 1em;
+        font-size: 1em;
+        width: 1em;
+    }
+    .about-left-content,
+    .about-right-content {
+        padding: 10px 30px;
+        text-align: justify;
+    }
+    .awards {
+        width: 80%;
+        margin: 25px auto;
+    }
+    .awards ul {
+        text-align: center;
+        margin: 0;
+        padding: 15px;
+        list-style-type: none;
+    }
+    .awards ul li {
+        display: block;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .awards ul li p {
+        text-align: center;
+        color: #50BF96;
+        padding-top: 5px;
+        font-weight: bold;
+    }
+}
 
 
 /**About section team**/
