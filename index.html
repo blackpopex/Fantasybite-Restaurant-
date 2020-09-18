@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fantasy-Bite|homepage</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Oki John, Web-Developer">
+    <meta name="description" content="Fanatasy Bite Restuarant is a vitual restaurant assumed to be existing in the UK.">
+    <link rel="stylesheet" type="text/css" href="swiper.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/12d9de5a0c.js" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+
+
+
+    <!--Slick carousel for slides show -->
+
+
+
+</head>
+
+<body>
+
+    <!--Container for keeping footer down-->
+    <div class="main-container">
+        <div class="main">
+
+            <!--Main-website content-->
+
+            <!--navbar section-->
+            <header>
+                <div id="navbar" style="background: #686868">
+                    <div id="logo-menu-bar-responsive">
+                        <h1 class="logo-m-b logo-brand">Fantasy<span>-Bite</span></h1>
+                        <button type="button" class="logo-m-b logo-button" id="mobile-responsive-btn" onclick="dpxFunction()"> <i class="fa fa-bars"></i> Menu</button>
+                    </div>
+                    <div class="responsive-share-links">
+                        <ul>
+                            <li> <a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li> <a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
+                            <li> <a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li> <a href="#" class="whatsapp"><i class="fa fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                    <nav class="nav-links fade-Menu" id="nav-links-mobile">
+                        <ul>
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="services.html">Services </a></li>
+                            <li><a href="contact.html">Contact-us</a></li>
+                        </ul>
+                        <div class="responsive-form-container">
+                            <form action="action_page.php" method="post">
+                                <input type="text" name="search" placeholder="Search...">
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </nav>
+                    <div class="social-links float-right">
+                        <a href="#" style="font-weight: bold; color:white; font-size: 17px; 	font-family: 'saira Condensed', sans-serif;" class="share-wrd">Share: </a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <!--subnavbar section-->
+                <div id="subnavbar">
+                    <div class="float-left">
+                        <a href="login.html" class="animate" onclick="document.getElementById('id01').style.display ='block'"> Sign-in</a> <span style="color:#686868">&#124;</span>
+                        <a href="signup.html" class="animate" onclick="document.getElementById('id02').style.display='block'"> Signup</a>
+                    </div>
+
+                    <div class="search-container-float-right">
+                        <form class="search-container animate" action="/action_page.php" method="post">
+                            <input type="text" name="search" placeholder="Need Help ?" required>
+                            <button class="submit-btn" type="submit">Search</button>
+                        </form>
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!--section one starts with little welcome writeup before slideshow -->
+            <div id="setbodywidth">
+
+                <!--header with slideshow and writeups contain fatasy-bite restaurant-->
+                <section id="header-slideshow">
+                    <div class="header-slideshow col-12 col-s-12">
+                        <div class="container-holding">
+                            <div class="hdslides">
+                                <div><img src="./img/slideshow/pexels-pixabay-534285.jpg" alt="pix"></div>
+                                <div><img src="./img/slideshow/pexels-chan-walrus-958545.jpg" alt="pix"></div>
+                                <div><img src="./img/slideshow/pexels-elevate-1267697.jpg" alt="pix"></div>
+                                <div><img src="./img/slideshow/pexels-cottonbro-3944308.jpg" alt="pix"></div>
+                                <div><img src="./img/slideshow/pexels-elevate-1267320.jpg" alt="pix"></div>
+                                <iv><img src="./img/slideshow/pexels-lina-kivaka-1879321.jpg" alt="pix"></iv>
+                                <div><img src="./img/slideshow/pexels-pixabay-262978.jpg" alt="pix"></div>
+                                <div><img src="./img/slideshow/pexels-snapwire-675951.jpg" alt="pix"></div>
+                            </div>
+                            <div class="everthing">
+                                <div class="kx-content">
+                                    <h1 id="fantasy-b" style="display: none;">Fantasy-Bite <span>Restaurant</span></h1>
+                                    <p id="showparagraph">Come and have a taste of our sumtious and wonderful meal with <b><span>50%</span></b> discount on all food items, we are waiting to receive you.</p>
+                                </div>
+                                <script>
+                                    $(document).ready(function() {
+                                        $(document).ready(function() {
+                                            $("#fantasy-b").fadeIn(1000);
+                                            $("#showparagraph").toggle(2000);
+                                        });
+                                    });
+                                </script>
+                                <div class="kx-btn">
+                                    <a href="#food-images" class="kx-btn">
+                                        <button onclick="menuFunction()" id="kx-btn">Quick View</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--subsection for after header's slideshow-->
+                <section id="pageone">
+                    <div class="col-s-12 col-12">
+                        <h2>MOST POPULAR FACILITIES</h2>
+                        <div class="container-facilities">
+                            <div class="facility-content">
+                                <div class="facility-box col-s-3 col-3" data-aos="flip-left" data-aos-duration="2000">
+                                    <h1><i class="fa fa-wifi"></i></h1>
+                                    <h3> 24 Hrs Wifi</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, beatae itaque voluptatibus deserunt nihil harum </p>
+                                </div>
+                                <div class="facility-box col-s-3 col-3" data-aos="flip-right" data-aos-duration="2000">
+                                    <h1><i class="fa fa-tv"></i></h1>
+                                    <h3> Cable TV</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, beatae itaque voluptatibus deserunt nihil harum </p>
+                                </div>
+                                <div class="facility-box col-s-3 col-3" data-aos="flip-up" data-aos-duration="2000">
+                                    <h1><i class="fa fa-car"></i></h1>
+                                    <h3>Free Cab Services</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, beatae itaque voluptatibus deserunt nihil harum </p>
+                                </div>
+                                <div class="facility-box col-s-3 col-3" data-aos="flip-down" data-aos-duration="2000">
+                                    <h1><i class="fa fa-swimmer"></i></h1>
+                                    <h3>Swimming Pool</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, beatae itaque voluptatibus deserunt nihil harum </p>
+                                </div>
+                                <div class="facility-box col-s-3 col-3" data-aos="zoom-in" data-aos-duration="2000">
+                                    <h1><i class="fa fa-wheelchair"></i></h1>
+                                    <h3>Wheelchair for Disabled</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, beatae itaque voluptatibus deserunt nihil harum </p>
+                                </div>
+                                <div class="facility-box col-s-3 col-3" data-aos="zoom-in-up" data-aos-duration="2000">
+                                    <h1><i class="fa fa-cocktail"></i></h1>
+                                    <h3>Cocktail</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, beatae itaque voluptatibus deserunt nihil harum </p>
+                                </div>
+                                <div class="facility-box col-s-3 col-3" data-aos="zoom-in-down" data-aos-duration="2000">
+                                    <h1><i class="fa fa-dumbbell"></i></h1>
+                                    <h3>Free Gym Section </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, beatae itaque voluptatibus deserunt nihil harum </p>
+                                </div>
+                                <div class="facility-box col-s-3 col-3" data-aos="zoom-in-left" data-aos-duration="2000">
+                                    <h1><i class="fa fa-umbrella-beach"></i></h1>
+                                    <h3>Beach for Relaxation</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, beatae itaque voluptatibus deserunt nihil harum </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--what our clients say about us 80% glass, margin auto containing a video and testimonies section passing as slideshow-->
+                <section id="Our-clients" data-aos="fade-up" data-aos-duration="3000">
+                    <!--set width to 80%-->
+                    <div class="testimonies col-s-12 col-12">
+                        <h2>
+                            WHAT OUR CLIENT'S SAY ABOUT US ?
+                        </h2>
+                        <div class="row testimonies-flex">
+                            <div class="col-s-6 col-6 our-client-video">
+                                <video autoplay loop controls id="myvideo">
+                                    <source src="./video/FantasyRestaurant Reviews.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="col-s-6 col-6 our-client-comments">
+
+                                <!--Slider for testimony section-->
+                                <div class="cmts">
+                                    <div>
+                                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad culpa sequi voluptas eum recusandae? Perspiciatis praesentium, deleniti iusto quod distinctio,
+                                       </q>
+                                        <p><span style="color: #686868;">&#8208; Reginal Dane  &#8208;</span> <br> <small> Feb 25th, 2020 </small></p>
+
+                                    </div>
+                                    <div>
+                                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad culpa sequi voluptas eum recusandae? Perspiciatis praesentium, deleniti iusto quod distinctio, </q>
+                                        <p><span style="color: #686868;">&#8208; Jush Cambell &#8208;</span> <br> <small> Dec 3rd, 2018 </small></p>
+                                    </div>
+                                    <div>
+                                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad culpa sequi voluptas eum recusandae? Perspiciatis praesentium, deleniti iusto quod distinctio, </q>
+                                        <p><span style="color: #686868;">&#8208; Joel O'brian &#8208;</span> <br> <small> Aug 18th, 2016 </small></p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <!--food section displayed as flex containing name of food, old and new price with a buy button to place an order, also include a button that can take clients to the menus section.-->
+                <section id="food-images" data-aos="fade-up" data-aos-duration="3000">
+
+                    <!--set width to 80%-->
+                    <div class="pix-container ">
+                        <h2>BELOW IS A CLIP OF OUR AMAZING MENU</h2>
+                        <p>At Fantasy-Bite Restaurant you can never run out of choices because we've got you covered with our splendid menu and a huge <b>50%</b> discount on all food items. Hurry now while offer last.</p>
+                        <br>
+                        <div class="row">
+                            <div class="col-s-3 col-3 hxt">
+                                <div class="pix">
+                                    <img src="./img/food/grilled-chicken-bangladeshi-food-600-o.jpg">
+                                    <div class="pix-content row">
+                                        <h3>Grilled-chicken</h3>
+                                        <div class="column-pix-content">
+                                            <p class="red">Price: <span>£10.05</span></p>
+                                            <p><b>Now: £5.45</b></p>
+                                        </div>
+                                        <div class="columntwo-pix-content">
+                                            <button class="buy-button"> Buy now </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-s-3 col-3 hxt">
+                                <div class="pix">
+                                    <img src="./img/food/Satay-souce-Coriander.jpg">
+                                    <div class="pix-content row">
+                                        <h3>Satay-souce</h3>
+                                        <div class="column-pix-content">
+                                            <p class="red">Price: <span>£20.00</span></p>
+                                            <p><b>Now: £10.00</b></p>
+                                        </div>
+                                        <div class="columntwo-pix-content">
+                                            <button class="buy-button"> Buy now </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-s-3 col-3 hxt">
+                                <div class="pix">
+                                    <img src="./img/food/IDB-L-DINE909-0726-41.jpg">
+                                    <div class="pix-content row">
+                                        <h3>Seafood-fish</h3>
+                                        <div class="column-pix-content">
+                                            <p class="red">Price: <span>£30.00</span></p>
+                                            <p><b>Now: £15.00</b></p>
+                                        </div>
+                                        <div class="columntwo-pix-content">
+                                            <button class="buy-button"> Buy now </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-s-3 col-3 hxt">
+                                <div class="pix">
+                                    <img src="./img/food/A-dish-prepared-at-Epicure-by-Coco-600x450.jpg">
+                                    <div class="pix-content row">
+                                        <h3>Coco-souce</h3>
+                                        <div class="column-pix-content">
+                                            <p class="red">Price: <span>£15.00</span></p>
+                                            <p><b>Now: £7.50</b></p>
+                                        </div>
+                                        <div class="columntwo-pix-content">
+                                            <button class="buy-button"> Buy now </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--row 2 set each colum to 4-->
+                            <div class="col-s-3 col-3 hxt">
+                                <div class="pix">
+                                    <img src="./img/food/Som-Tam-at-Gai-Yang-Preecha-1-600x450.jpg">
+                                    <div class="pix-content row">
+                                        <h3>Som-Tam-chicken</h3>
+                                        <div class="column-pix-content">
+                                            <p class="red">Price: <span>£18.50</span></p>
+                                            <p><b>Now: £9.25</b></p>
+                                        </div>
+                                        <div class="columntwo-pix-content">
+                                            <button class="buy-button"> Buy now </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-s-3 col-3 hxt">
+                                <div class="pix">
+                                    <img src="./img/food/Mozzarella-Stuffed-Bacon-Wrapped-Meatloaf-Recipe-image-4.jpg">
+                                    <div class="pix-content row">
+                                        <h3>Mozzarella-Stuffed Meatloaf</h3>
+                                        <div class="column-pix-content">
+                                            <p class="red">Price: <span>£40.00</span></p>
+                                            <p><b>Now: £20.00</b></p>
+                                        </div>
+                                        <div class="columntwo-pix-content">
+                                            <button class="buy-button"> Buy now </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-s-3 col-3 hxt">
+                                <div class="pix">
+                                    <img src="./img/food/36696080-turkey-sandwich-with-macaroni-salad.jpg">
+                                    <div class="pix-content row">
+                                        <h3>Turkey-sandwich</h3>
+                                        <div class="column-pix-content">
+                                            <p class="red">Price: <span>£8.00</span></p>
+                                            <p><b>Now: £4.00</b></p>
+                                        </div>
+                                        <div class="columntwo-pix-content">
+                                            <button class="buy-button"> Buy now </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-s-3 col-3 hxt">
+                                <div class="pix">
+                                    <img src="./img/food/Bulgarian Food Items to Try When Traveling the Country-600x450.jpg">
+                                    <div class="pix-content row">
+                                        <h3>Grilled-chicken</h3>
+                                        <div class="column-pix-content">
+                                            <p class="red">Price: <span>£26.30</span></p>
+                                            <p><b>Now: £13.15</b></p>
+                                        </div>
+                                        <div class="columntwo-pix-content">
+                                            <button class="buy-button"> Buy now </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="base-text ">
+                                <p>
+                                    <a href="menu.html"> <i class="fa fa-arrow-right"></i> Click here for more</a>
+                                </p>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+            </div>
+
+
+            </section>
+
+
+
+
+
+
+
+
+            <!--Our key Objectives-->
+
+            <section id="key-objectives" class="bg-img" style="background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./img/shutterstock_655955302.2e16d0ba.fill-620x413.jpg'); background-repeat: no-repeat; background-position:center;background-size: cover; ">
+                <div class="row">
+                    <div class="container section-two">
+                        <h2>Our Key Objectives at fantasy-bite</h2>
+                        <div class="position-center">
+                            <div class="col-s-6 col-3" id="card" data-aos="flip-up" data-aos-duration="3000">
+                                <h3>Warm Serenity</h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                                    opposed to using 'Content here, content here', making it look like readable English. </p>
+                            </div>
+                            <div class="col-s-6 col-3" id="card" data-aos="flip-up" data-aos-duration="3000">
+                                <h3>Efficiency</h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                                    opposed to using 'Content here, content here', making it look like readable English. </p>
+                            </div>
+                            <div class="col-s-12 col-3" id="card" data-aos="flip-up" data-aos-duration="3000">
+                                <h3>Compelling </h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                                    opposed to using 'Content here, content here', making it look like readable English. </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-s-6 col-3" id="card" data-aos="flip-up" data-aos-duration="3000">
+                                    <h3>adorable</h3>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                                        as opposed to using 'Content here, content here', making it look like readable English. </p>
+                                </div>
+                                <div class="col-s-6 col-3" id="card" data-aos="flip-up" data-aos-duration="3000">
+                                    <h3>affirmative</h3>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                                        as opposed to using 'Content here, content here', making it look like readable English.</p>
+                                </div>
+                                <div class="col-s-12 col-3" id="card" data-aos="flip-up" data-aos-duration="3000">
+                                    <h3>attractive</h3>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                                        as opposed to using 'Content here, content here', making it look like readable English. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--meet the team section-->
+            <section id="Swiper-slideshow">
+                <div id="Meet-the-team" data-aos="fade-up" data-aos-duration="3000">
+                    <h2>MEET THE TEAM BEHIND THE SCENE</h2>
+                    <div class="container section-three col-12 col-s-12">
+                        <p>These are the key notable individuals that have impact lives through their relentless contribution to setting up fantasy-bite restuarant.It is a long established fact that a reader will be distracted by the readable content of
+                            a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        </p>
+
+                        <!-- Swiper -->
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="mxb">
+                                        <img src="./img/(Professor E. Nigel Harris, Vice Chancellor of the University of )d8642720124780cfe3f997f6342875b0.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Dr. Roger K. Rojo</h4>
+                                        <p>Cheif Executive Officer</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="mxb">
+                                        <img src="./img/(D.D. Miers (Author of Curse of Iron))12069376.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Mrs. Sherri E. Maples</h4>
+                                        <p> Managing Director</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="mxb">
+                                        <img src="./img/_EdwardAdomako.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Mr. Edward Adomako</h4>
+                                        <p>Director</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="mxb">
+                                        <img src="./img/Beranek_Kaitlyn_headshot-360x500.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Mrs. Beranek Kaitlyn</h4>
+                                        <p>Manager</p>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="mxb">
+                                        <img src="./img/(Telugu Babe Madhu Shalini)16340004489_f6d95fd0ec.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Mrs. Susan N. Jenks</h4>
+                                        <p>Head of Finance</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <div class="mxb">
+                                        <img src="./img/gore_george_multimedia_ministry.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Mr. Michael V. Berg</h4>
+                                        <p>Supervisor</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="mxb">
+                                        <img src="./img/MV5BMTUwNjE4MzUzOV5BMl5BanBnXkFtZTcwMzA2OTQ1NA@@._V1_SY500_CR0,0,360,500_AL_.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Mr. James Stacy</h4>
+                                        <p>Nutritionist</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="mxb">
+                                        <img src="./img/nurit-cohen-katzav-1-389l9sfsw4w10hulmasp3e.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Mrs. Cohen Katzav</h4>
+                                        <p>Co-ordinator</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="mxb">
+                                        <img src="./img/Lawson_Michael_headshot-360x500.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Mr. Lawson Michael</h4>
+                                        <p>Asst.Supervisor</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="mxb">
+                                        <img src="./img/aria_g_5.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Mrs. Kathy Mathews</h4>
+                                        <p>Chancellor</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+        </div>
+
+
+
+    </div>
+    </div>
+
+    <!--scroll top button-->
+    <div class="scrolltop-btn">
+        <button id="scrolltop-btn" onclick="topFunction()"><i class="fa fa-angle-up"></i> </button>
+    </div>
+    <!--footer-->
+    <footer class="footer">
+        <div id="footer-container">
+            <!--row 1 of footer-->
+            <section class="level-one">
+                <div class="row">
+                    <!--Need Help-->
+                    <div class="col-s-2 col-2 need-help">
+                        <h3>Need Help?</h3>
+                        <ul>
+                            <li><a href="Index.html">Gallery</a></li>
+                            <li><a href="#">Updates</a></li>
+                            <li><a href="Contact.html">Support</a></li>
+                            <li><a href="#">Ratings</a></li>
+                            <li><a href="About.html">Testimonies</a></li>
+                        </ul>
+                    </div>
+                    <!--Related Links-->
+                    <div class="col-s-2 col-2 related-links">
+                        <h3>Related Links </h3>
+                        <ul>
+                            <li><a href="About.html">News</a></li>
+                            <li><a href="blog.html" target="_blank">Blog</a></li>
+                            <li><a href="About.html">Awards</a></li>
+                            <li><a href="About.html">Recruitment</a></li>
+                            <li><a href="Menu.html">Upcoming Events</a></li>
+                        </ul>
+                    </div>
+                    <!--Connect with us-->
+                    <div class="col-s-4 col-4 joint-us">
+                        <h3>Connect With Us</h3>
+                        <div class="row">
+                            <div class="ft-col-40">
+                                <label><i class="fa fa-phone"></i></label>
+                            </div>
+                            <div class="ft-col-60">
+                                <p>+44 79 6438 4179, +44 70 2427 7942
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="ft-col-40">
+                                <label><i class="fa fa-envelope"></i></label>
+                            </div>
+                            <div class="ft-col-60">
+                                <a>info@fatasybiterestaurant.com</a>, <a> admin@fatasybiterestaurant.com
+                            </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="ft-col-40">
+                                <label><i class="fa fa-home"></i></label>
+                            </div>
+                            <div class="ft-col-60">
+                                <p>55 Stamford Road ANDOVER SP10 7ZD , Uk.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Newsletter-->
+                    <div class="col-s-4 col-4 address-newsletter">
+
+                        <div class="newsletter">
+                            <h3>Newsletter</h3>
+                            <p>Subscribe to our newsletter to keep in-touch with latest news and updates by inputing your email in the form below.</p><br>
+                            <form action="/action_page.php" method="post" id="newsletter">
+                                <input type="email" name="email" placeholder="email@example.com" required>
+                                <button type="submit" class="newsletter-btn">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--row 1 ends-->
+
+
+            <section class="level-two">
+                <div class="row">
+                    <div class="breadcrumbs col-s-6 col-6">
+                        <ul>
+                            <li><a href="license.html">License</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="Privacy.html">Privacy policy</a></li>
+                            <li><a href="terms.html">Terms of use</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="share-social col-s-6 col-6">
+                        <ul>
+                            <li>
+                                <h5>Follow-us: </h5>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="level-foul">
+                <div class="row">
+                    <div class="col-s-12 col-12 autodate">
+                        <p>&copy;2009 - <span id="date"></span> Fantasybiterestaurant.com, All Rights Reserved.</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <script>
+            var d = new Date();
+            var year = d.getFullYear();
+            document.getElementById("date").innerHTML = year;
+        </script>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="./js/slick.js" type="text/javascript"></script>
+    <script src="./js/swiper.min.js"></script>
+
+    <script>
+        //controls slick slider animation on header slideshow and testimonies section
+        $(document).ready(function() {
+            $('.hdslides').slick({
+                dots: true,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 10000
+            });
+        });
+        $(document).ready(function() {
+            $('.cmts').slick({
+                dots: true,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 8000
+            });
+        });
+
+        //  Initializes Swiper
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 500,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+
+</body>
+
+</html>
