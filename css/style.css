@@ -2331,11 +2331,11 @@ hr {
 
 /*responsiveness*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     #services-body {
-        width: 98%;
+        width: 90%;
         margin: 5% auto;
-        padding: 50px 10px;
+        padding: 50px 0;
     }
     .nutritionist-header h2 {
         color: #50BF96;
@@ -2483,6 +2483,158 @@ hr {
 }
 
 
+/**New settings**/
+
+@media screen and (max-width: 414px) {
+    #services-body {
+        width: 90%;
+        margin: 5% auto;
+        padding: 50px 0;
+    }
+    .nutritionist-header h2 {
+        color: #50BF96;
+        margin: 10px 0;
+        padding: 0;
+        font-size: 2em;
+        text-align: center;
+    }
+    .nutritionist-header p {
+        font-size: 1em;
+        padding: 10px 0;
+        text-align: justify;
+    }
+    /**section of nutritionist with pictures*/
+    #nutri-subsection {
+        width: 100%;
+        overflow: hidden;
+    }
+    .nutrione {
+        overflow: hidden;
+        width: 100%;
+        text-align: center;
+    }
+    .nutrione h3 {
+        text-align: center;
+        color: #686868;
+        padding: 0;
+        margin: 10px 0;
+        text-transform: uppercase;
+        font-size: 1.2em;
+    }
+    .nutrione p {
+        font-size: 17px;
+        text-align: justify;
+        width: 100%;
+    }
+    .nutrione p img {
+        width: 200px;
+        height: auto;
+        margin: 25px auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    }
+    .nutrione img {
+        display: block;
+        float: none;
+        clear: both;
+    }
+    /**Ratings settings*/
+    .ratings {
+        overflow: hidden;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .ratings h3 {
+        color: #686868;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin: 30px 0 0 0;
+        padding: 0;
+    }
+    .vol-rating {
+        width: 50%;
+    }
+    .left-side {
+        float: left;
+        width: 20%;
+        margin-top: 10px;
+    }
+    .right-side {
+        float: left;
+        width: 80%;
+        margin-top: 10px;
+    }
+    .rating-container {
+        width: 100%;
+        background-color: #f1f1f1;
+        color: white;
+    }
+    .rating-5 {
+        width: 70%;
+        height: 18px;
+        background-color: orange;
+    }
+    .rating-4 {
+        width: 50%;
+        height: 18px;
+        background-color: orange;
+    }
+    .rating-3 {
+        width: 30%;
+        height: 18px;
+        background-color: orange;
+    }
+    .rating-2 {
+        width: 25%;
+        height: 18px;
+        background-color: orange;
+    }
+    .rating-1 {
+        width: 5%;
+        height: 18px;
+        background-color: orange;
+    }
+    .checked {
+        color: orange;
+    }
+    .star-ratings {
+        width: 50%;
+        overflow: hidden;
+    }
+    .ratings-header {
+        font-size: 40px;
+        margin-right: 20px;
+    }
+    .star-listing {
+        display: none;
+    }
+    #reginal-contact-btn {
+        cursor: pointer;
+        background-color: #50BF96;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 8px;
+        margin-top: 5px;
+        border: none;
+        outline: none;
+        width: auto;
+        margin-top: 25px;
+        width: 100%;
+    }
+    .left-side,
+    .right-side {
+        width: 100%;
+        display: block;
+    }
+    .ratings,
+    .nutrione {
+        width: 100%;
+        float: none;
+    }
+    .nutrione img {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+}
 /**Message form*/
 
 .rgn-content {
