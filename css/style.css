@@ -2331,11 +2331,11 @@ hr {
 
 /*responsiveness*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     #services-body {
-        width: 90%;
+        width: 98%;
         margin: 5% auto;
-        padding: 50px 0;
+        padding: 50px 10px;
     }
     .nutritionist-header h2 {
         color: #50BF96;
@@ -2737,7 +2737,7 @@ hr {
     margin-left: 15px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     #stacy-contact-btn {
         cursor: pointer;
         background-color: #50BF96;
