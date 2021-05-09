@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/12d9de5a0c.js" crossorigin="anonymous"></script>
-    <script src="//code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
 
 
 
@@ -52,44 +52,47 @@
                             <li> <a href="#" class="whatsapp"><i class="fa fa-whatsapp"></i></a></li>
                         </ul>
                     </div>
-                    <nav class="nav-links fade-Menu" id="nav-links-mobile">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="menu.html">Menu</a></li>
-                            <li><a href="services.html" class="active">Services </a></li>
-                            <li><a href="contact.html">Contact-us</a></li>
-                        </ul>
-                        <div class="responsive-form-container">
-                            <form action="action_page.php" method="post">
-                                <input type="text" name="search" placeholder="Search...">
-                                <button type="submit">Submit</button>
-                            </form>
+                    <div class="wrapper_content_hf">
+                        <nav class="nav-links fade-Menu" id="nav-links-mobile">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="menu.html">Menu</a></li>
+                                <li><a href="services.html" class="active">Services </a></li>
+                                <li><a href="contact.html">Contact-us</a></li>
+                            </ul>
+                            <div class="responsive-form-container">
+                                <form action="action_page.php" method="post">
+                                    <input type="text" name="search" placeholder="Search...">
+                                    <button type="submit">Submit</button>
+                                </form>
+                            </div>
+                        </nav>
+                        <div class="social-links float-right">
+                            <a href="#" style="font-weight: bold; color:white; font-size: 17px; 	font-family: 'saira Condensed', sans-serif;" class="share-wrd">Share: </a>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
                         </div>
-                    </nav>
-                    <div class="social-links float-right">
-                        <a href="#" style="font-weight: bold; color:white; font-size: 17px; 	font-family: 'saira Condensed', sans-serif;" class="share-wrd">Share: </a>
-                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
 
                 <!--subnavbar section-->
                 <div id="subnavbar">
-                    <div class="float-left">
-                        <a href="login.html" class="animate" onclick="document.getElementById('id01').style.display ='block'"> Sign-in</a> <span style="color:#686868">&#124;</span>
-                        <a href="signup.html" class="animate" onclick="document.getElementById('id02').style.display='block'"> Signup</a>
-                    </div>
+                    <div class="wrapper_content_hf">
+                        <div class="float-left">
+                            <a href="login.html" class="animate" onclick="document.getElementById('id01').style.display ='block'"> Sign-in</a> <span style="color:#686868">&#124;</span>
+                            <a href="signup.html" class="animate" onclick="document.getElementById('id02').style.display='block'"> Signup</a>
+                        </div>
 
-                    <div class="search-container-float-right">
-                        <form class="search-container animate" action="/action_page.php" method="post">
-                            <input type="text" name="search" placeholder="Need Help ?" required>
-                            <button class="submit-btn" type="submit">Search</button>
-                        </form>
+                        <div class="search-container-float-right">
+                            <form class="search-container animate" action="/action_page.php" method="post">
+                                <input type="text" name="search" placeholder="Need Help ?" required>
+                                <button class="submit-btn" type="submit">Search</button>
+                            </form>
+                        </div>
                     </div>
-
                 </div>
 
             </header>
@@ -97,7 +100,7 @@
             <div id="services-body">
 
                 <section id="nutritionist">
-                    <div class="col-s-12 col-12 nutritionist-header">
+                    <div class="col-s-12 col-12 nutritionist-header wrapper_content">
                         <h2>NUTRITION/FAT-CONTROL</h2>
                         <p>Looking towards cutting down on excess weight we have nutritionist who are always ready to assist you. You cold get in touch with them through which ever means you desire, just click on the contact button in the profile picture
                             to send a direct message to the nutritionist of your choice.They are from different countries therefore you could send a message in your local language.
@@ -213,7 +216,7 @@
                             <!--Contact form section regina-->
 
                             <div id="frm-contact-rgn">
-                                <form action="/action_page.php" method="post" class="col-s-12 col-12 frm-contact-rgn" style="border: 2px solid #f2f2f2; background:#f1f1f1" id="frm-contact-rgn-show">
+                                <form class="col-s-12 col-12 frm-contact-rgn" style="border: 2px solid #f2f2f2; background:#f1f1f1" id="frm-contact-rgn-show">
                                     <h2>Hi Dear!</h2>
                                     <p>Leave a message, <b>Mrs. James</b> would reply you within 24 - 48 hrs.</p>
                                     <hr style="border: 1px solid #50BF96; margin-top: 15px;">
@@ -424,7 +427,7 @@
                                 <!--Contact form section regina-->
 
                                 <div id="frm-contact-rgn">
-                                    <form action="/action_page.php" method="post" class="col-s-12 col-12 frm-contact-rgn" style="border: 2px solid #f2f2f2; background:#f1f1f1" id="stacy-contact-rgn-show">
+                                    <form class="col-s-12 col-12 frm-contact-rgn" style="border: 2px solid #f2f2f2; background:#f1f1f1" id="stacy-contact-rgn-show">
                                         <h2>Hi Dear!</h2>
                                         <p>Leave a message, <b>Stacy Grams</b> would reply you within 24 - 48 hrs.</p>
                                         <hr style="border: 1px solid #50BF96; margin-top: 15px;">
@@ -530,7 +533,7 @@
 
                 <!--Training section section two-->
                 <section id="training">
-                    <div class="row">
+                    <div class="row wrapper_content">
                         <div class="col-s-12 col-12 training">
                             <h2>TRAINING</h2>
                             <p>At Fantasy-Bite Restaurant we also train serious minded individuals who are interestend in catering and also want a key role in the the cooking industry, training comprises of two categories A & B with each category having
@@ -566,7 +569,7 @@
 
                     <!--Photos of students learning how to cook-->
 
-                    <div class="tutorials">
+                    <div class="tutorials wrapper_content">
                         <div class="tu-head">
                             <h3>CROSS SECTIONS OF COOKING TUTORIALS</h3>
                         </div>
@@ -588,28 +591,30 @@
                             the button below. </p>
                     </div>
 
-                    <div class="words-of-thanks">
+                    <div class="words-of-thanks wrapper_content">
                         <h3>WORDS OF THANKS FROM OUR STUDENTS</h3>
-                        <div class="row">
-                            <div class="col-s-4 col-4 ">
-                                <div class="quote">
-                                    <q><i>Thanks so fantasy-bite restaurant, you guys taught me alot</i></q>
-                                    <p class="name-of-quoter">- Kelly Jones -</p>
+                        <div class="quote_wrapper">
+                            <div class="row">
+                                <div class="box-quote" id="quoted-by">
+                                    <div class="quote">
+                                        <q><i>Thanks so fantasy-bite restaurant, you guys taught me alot</i></q>
+                                        <p class="name-of-quoter">- Kelly Jones -</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-s-4 col-4">
-                                <div class="quote">
-                                    <q><i>The experience i got from learning at Fantasy-Bite was splendid, words can't express how pleased i am. Thanks to the Management.</i></q>
-                                    <p class="name-of-quoter">- Bush Douglas -</p>
-                                </div>
+                                <div class="box-quote" id="quoted-by">
+                                    <div class="quote">
+                                        <q><i>The experience i got from learning at Fantasy-Bite was splendid, words can't express how pleased i am. Thanks to the Management.</i></q>
+                                        <p class="name-of-quoter">- Bush Douglas -</p>
+                                    </div>
 
-                            </div>
-                            <div class="col-s-4 col-4">
-                                <div class="quote">
-                                    <q><i>I had great difficult at the start of my training programm but with the help of good teachers, it became easier. Thanks Fantasy-Bite</i></q>
-                                    <p class="name-of-quoter">- Morgan Stephenie -</p>
                                 </div>
+                                <div class="box-quote" id="quoted-by">
+                                    <div class="quote">
+                                        <q><i>I had great difficult at the start of my training programm but with the help of good teachers, it became easier. Thanks Fantasy-Bite</i></q>
+                                        <p class="name-of-quoter">- Morgan Stephenie -</p>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -617,7 +622,7 @@
 
                 <!--Recruitment section-->
                 <section id="recruitment">
-                    <div class="row">
+                    <div class="row wrapper_content">
                         <div class="col-s-12 col-12 recruitment">
                             <h2>RECRUITMENT</h2>
                             <p>We recruit good and experienced cooks to companies, hotels and others including home services such as cooking for families who may not have the opportunity to doe cooking by themselves .We are known for picking only the best.
@@ -625,17 +630,19 @@
                                 must satisfy the aforementioned criteria.</p><br>
                         </div>
                         <div class="selection">
-                            <h3>OUT OF EVERY 10,000 WE ONLY PICK THE BEST</h3>
-                            <div class="Logo-left-aligned">
-                                <div class="col-s-3 col-3">
-                                    <img src="./img/Servicesimage/Recruitment.png" alt="" style="width: 280px; height: 140px; display: block; padding: 5px 10px;">
-                                </div>
+                            <h3>OUT OF EVERY <span style="color: #50bf96; font-size: 1.5em;"> 10,000 </span> WE ONLY PICK THE BEST</h3>
+                            <div class="Logo-left-aligned flex_box">
+                                <div class="exp_pass flex_box flxb">
+                                    <div>
+                                        <img src="./img/Servicesimage/Recruitment.png" alt="" style="width: 280px; height: 140px; display: block; padding: 5px 10px;">
+                                    </div>
 
-                                <div class="col-s-5 col-5 adverts">
-                                    <h4>PASSIONATE AND EXPERIENCED COOKS</h4>
-                                    <p style="color: rgba(47, 97, 189, 0.925); margin: 0; padding: 0; font-weight: bold;">Contact us: <span style="color: grey ; font-weight: lighter;">+44 79 6438 4179, +44 79 6438 4179</span></p>
+                                    <div class="adverts">
+                                        <h4>PASSIONATE AND EXPERIENCED COOKS</h4>
+                                        <p style="color: rgba(47, 97, 189, 0.925); margin: 0; padding: 0; font-weight: bold;">Contact us: <span style="color: grey ; font-weight: lighter;">+44 79 6438 4179, +44 79 6438 4179</span></p>
+                                    </div>
                                 </div>
-                                <div class="col-s-4 col-4">
+                                <div class="img_pick_box">
                                     <img src="./img/Servicesimage/recruitment-and-selection.jpg" alt="" style="width: 280px; height: 180px; display: block; padding: 5px 10px;">
                                 </div>
                             </div>
@@ -669,117 +676,121 @@
 
 
         <!--footer-->
-        <footer class="footer">
-            <div id="footer-container">
+        <footer class="footer ">
+            <div id="footer-container" class="wrapper_content_hf">
                 <!--row 1 of footer-->
-                <div class="row level-one">
-                    <!--Need help first section 25% on level one-->
-                    <div class="col-s-2 col-2 need-help">
-                        <h3>Need Help?</h3>
-                        <ul>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="#">Updates</a></li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Ratings</a></li>
-                            <li><a href="#">Testimonies</a></li>
-                        </ul>
-                    </div>
-                    <!--Related links second col 25% on level one-->
-
-                    <div class="col-s-2 col-2 related-links">
-                        <h3>Related Links </h3>
-                        <ul>
-                            <li><a href="#">News</a></li>
-                            <li><a href="blog.html" target="_blank">Blog</a></li>
-                            <li><a href="#">Awards</a></li>
-                            <li><a href="#">Recruitment</a></li>
-                            <li><a href="#">Upcoming Events</a></li>
-                        </ul>
-                    </div>
-
-                    <!--connect with us col 50% on level one-->
-                    <div class="col-s-4 col-4 joint-us">
-                        <h3>Connect With Us</h3>
-                        <div class="row">
-                            <div class="ft-col-40">
-                                <label><i class="fa fa-phone"></i></label>
-                            </div>
-                            <div class="ft-col-60">
-                                <p>+44 79 6438 4179, +44 70 2427 7942
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="ft-col-40">
-                                <label><i class="fa fa-envelope"></i></label>
-                            </div>
-                            <div class="ft-col-60">
-                                <a>info@fatasybiterestaurant.com</a>, <a> admin@fatasybiterestaurant.com
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="ft-col-40">
-                                <label><i class="fa fa-home"></i></label>
-                            </div>
-                            <div class="ft-col-60">
-                                <p>55 Stamford Road ANDOVER SP10 7ZD , Uk</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-s-4 col-4 address-newsletter">
-
-                        <div class="newsletter">
-                            <h3>Newsletter</h3>
-                            <p>Subscribe to our newsletter to keep in-touch with latest <br>news and updates by inputing your email in the form <br>below.</p><br>
-                            <form action="/action_page.php" method="post" id="newsletter">
-                                <input type="email" name="email" placeholder="email@example.com" required>
-                                <button type="submit" class="newsletter-btn">Subscribe</button>
-                            </form>
-                        </div>
-                    </div>
-
-                </div>
-                <!--row 1 ends-->
-
-
-
-
-
-
-                <div class="row level-two">
-                    <div class="breadcrumbs col-s-6 col-6">
-                        <ul>
-                            <li><a href="license.html">License</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="Privacy.html">Privacy policy</a></li>
-                            <li><a href="terms.html">Terms of use</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                        </ul>
-                    </div>
-                    <div class="share-social col-s-6 col-6">
-                        <ul>
-                            <li>
-                                <h5>Follow-us: </h5>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-
-                <section id="level-foul">
+                <section class="level-one">
                     <div class="row">
-                        <div class="col-s-12 col-12 autodate">
-                            <p>&copy;2009 - <span id="date"></span> Fantasybiterestaurant.com, All Rights Reserved.</p>
+                        <div class="flex-one">
+                            <!--Need Help-->
+                            <div class="need-help">
+                                <h3>Need Help?</h3>
+                                <ul>
+                                    <li><a href="Index.html">Gallery</a></li>
+                                    <li><a href="#">Updates</a></li>
+                                    <li><a href="Contact.html">Support</a></li>
+                                    <li><a href="#">Ratings</a></li>
+                                    <li><a href="About.html">Testimonies</a></li>
+                                </ul>
+                            </div>
+                            <!--Related Links-->
+                            <div class="related-links">
+                                <h3>Related Links </h3>
+                                <ul>
+                                    <li><a href="About.html">News</a></li>
+                                    <li><a href="blog.html" target="_blank">Blog</a></li>
+                                    <li><a href="About.html">Awards</a></li>
+                                    <li><a href="About.html">Recruitment</a></li>
+                                    <li><a href="Menu.html">Upcoming Events</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex-two">
+                            <!--Connect with us-->
+                            <div class="joint-us">
+                                <h3>Connect With Us</h3>
+                                <div class="row">
+                                    <div class="ft-col-40">
+                                        <label><i class="fa fa-phone-alt"></i></label>
+                                    </div>
+                                    <div class="ft-col-60">
+                                        <p>+44 79 6438 4179, +44 70 2427 7942
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="ft-col-40">
+                                        <label><i class="fa fa-envelope"></i></label>
+                                    </div>
+                                    <div class="ft-col-60">
+                                        <a>info@fatasybiterestaurant.com</a>, <a> admin@fatasybiterestaurant.com
+                                </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="ft-col-40">
+                                        <label><i class="fa fa-home"></i></label>
+                                    </div>
+                                    <div class="ft-col-60">
+                                        <p>55 Stamford Road ANDOVER SP10, Uk.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Newsletter-->
+                            <div class="address-newsletter">
+
+                                <div class="newsletter">
+                                    <h3>Newsletter</h3>
+                                    <p>Subscribe to our newsletter to keep in-touch with latest news and updates by inputing your email in the form below.</p><br>
+                                    <form action="/action_page.php" method="post" id="newsletter" class="newsletter-container">
+                                        <input type="email" name="email" placeholder="email@example.com" required>
+                                        <button type="submit" class="newsletter-btn">Subscribe</button>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
+                <!--row 1 ends-->
+
+
+                <section class="level-two">
+                    <div class="row">
+                        <div class="level-two-wrapper">
+                            <div class="breadcrumbs ">
+                                <ul>
+                                    <li><a href="license.html">License</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="Privacy.html">Privacy policy</a></li>
+                                    <li><a href="terms.html">Terms of use</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                </ul>
+                            </div>
+                            <div class="share-social">
+                                <ul>
+                                    <li>
+                                        <h5>Follow-us: </h5>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="level-four">
+                    <div class="row">
+                        <div class="col-s-12 col-12 autodate">
+                            <small><p>&copy;2009 - <span id="date"></span> Fantasybiterestaurant.com, All Rights Reserved.</p></small>
+                        </div>
+                    </div>
+                </section>
+
             </div>
             <script>
                 var d = new Date();

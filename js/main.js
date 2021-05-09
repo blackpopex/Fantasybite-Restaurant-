@@ -37,4 +37,3 @@ function dpxFunction() {
 
 //animate on scroll
 
-AOS.init();
